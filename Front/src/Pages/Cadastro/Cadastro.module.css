@@ -1,0 +1,66 @@
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../assets/fundoalternativo.jpg'); /* Caminho ajustado para a imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff; /* Ajuste a cor do texto conforme necessário */
+}
+
+form {
+  background-color: #fff; /* Fundo branco para o formulário */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.btnVisualizar {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btnSalvar {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnSalvar:hover {
+  background-color: #0056b3;
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}

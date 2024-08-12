@@ -1,0 +1,40 @@
+.skillItem {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Limita a largura máxima */
+  margin: 15px auto; /* Centraliza o item horizontalmente */
+  transition: box-shadow 0.3s;
+}
+
+.skillItem:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skillImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* Torna a imagem circular */
+  margin-right: 15px;
+}
+
+.skillContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillName {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.skillDescription {
+  margin: 5px 0;
+  color: #777;
+}
